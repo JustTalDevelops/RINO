@@ -1,5 +1,5 @@
 # RINO
-The anti-raid bot that protects against raids by checking it's frequency 
+The anti-raid bot that protects against raids by checking a users message rate.
 
 ## Are you tired of annoying raids?
 
