@@ -38,7 +38,7 @@ public class Watcher extends ListenerAdapter {
                         System.out.println("[DEBUG] Differences matched!");
                         watcher.updateDelay(user);
                         System.out.println("[DEBUG] Checking if user has correct delays");
-                        if (watcher.getCorrectDelays(user) == 2) {
+                        if (watcher.getCorrectDelays(user) == 5) {
                             System.out.println("[DEBUG] User has correct delays, kicking!");
                             user.openPrivateChannel().complete().sendMessage("You were kicked by RINO for being a spam bot. If this assumption was incorrect, contact `justtal@protonmail.com`.").queue();
                             guild.kick(guild.getMember(user), "Automatic kick issued by RINO.").queue();
